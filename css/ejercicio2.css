@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100italic,300italic,100);
+
+/*Estilos de las fuentes h1 y h2 con Roboto sans-serif*/
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+h2 {
+  font-family: 'Roboto', serif;
+  font-weight: 400;
+}
+  
+
+/* Variables de tamaño en la fuente */
+
+h3 {
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 9px;
+}
+
+h4 {
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+}
+
+
+/* Fuentes con variables italic y normal */
+
+h5 {
+
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+}
+
+h6 {
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+}
+
+/* Fuente con cambio de color */
+
+h6 {
+
+  font-family: 'Roboto', sans-serif;
+  color: #E91A1A;
+}
+
+/*Variable de porcentaje */ 
+p {
+
+font-size:0.875em;
+
+}
+
+/*Bloque de cita aplicando varios estilos*/
+
+blockquote {
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  font-variant: small-caps;
+  font-weight: 400;
+
+}
