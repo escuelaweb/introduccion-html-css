@@ -1,73 +1,96 @@
 @charset "utf-8";
 /* CSS Document */
 
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100italic,300italic,100);
 
-/*Estilos de las fuentes h1 y h2 con Roboto sans-serif*/
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,100,300);
+
+h1,h2,h3,h4,h5 {
+  font-family: 'Roboto', sans-serif;
+}
 
 h1 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 100;
+
+  
+  font-weight: 400;
+  text-shadow: 1px 1px 0.5px #575057;
+    filter: dropshadow(color=#575057, offx=1, offy=1);
 }
 
 h2 {
-  font-family: 'Roboto', serif;
-  font-weight: 400;
-}
   
-
-/* Variables de tamaño en la fuente */
+  font-weight: 100;
+}
 
 h3 {
-
-  font-family: 'Roboto', sans-serif;
+  
+  font-weight: 400;
   font-size: 9px;
 }
 
 h4 {
 
-  font-family: 'Roboto', sans-serif;
-  font-size: 24px;
+  
+  font-weight: 400;
+  font-style: italic;
 }
-
-
-/* Fuentes con variables italic y normal */
 
 h5 {
-
-  font-family: 'Roboto', sans-serif;
-  font-style: italic;
+  
+  font-weight: 400;
+  color:#CF2424;
 }
-
-h6 {
-
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-}
-
-/* Fuente con cambio de color */
-
-h6 {
-
-  font-family: 'Roboto', sans-serif;
-  color: #E91A1A;
-}
-
-/*Variable de porcentaje */ 
-p {
-
-font-size:0.875em;
-
-}
-
-/*Bloque de cita aplicando varios estilos*/
 
 blockquote {
-
   font-family: 'Roboto', sans-serif;
+  font-weight: 100;
   font-size: 16px;
   font-style: italic;
+  color:#6E7274;
   font-variant: small-caps;
-  font-weight: 400;
+}
 
+p {
+  text-align: center;
+  font-size:0.875em;
+}
+
+#especial {
+  font-family: 'Chivo', sans-serif;
+  color:#6BCB50;
+}
+
+.clase1 p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+.clase1 p,.clase2 p,.clase3 p {
+  
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+.clase1 {
+  padding: 10px;
+  background-color: #38CBBB;
+  -webkit-box-shadow: 2px 2px 1px #c3c3c3;
+  box-shadow: 2px 2px 1px #c3c3c3;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.clase2 {
+  background-color: #75CF81;
+  -webkit-box-shadow: 2px 2px 1px #c3c3c3;
+  box-shadow: 2px 2px 1px #c3c3c3;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.clase3 {
+  background-color: #3E8CC6;
+  -webkit-box-shadow: 2px 2px 1px #c3c3c3;
+  box-shadow: 2px 2px 1px #c3c3c3;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
 }
