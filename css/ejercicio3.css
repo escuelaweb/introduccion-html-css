@@ -2,3 +2,39 @@
 /* CSS Document */
 
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100italic,300italic,100);
+
+.clase1 p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+.clase1 p,.clase2 p,.clase3 p {
+  
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+.clase1 {
+  padding: 10px;
+  background-color: #38CBBB;
+  -webkit-box-shadow: 2px 2px 1px #c3c3c3;
+  box-shadow: 2px 2px 1px #c3c3c3;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.clase2 {
+  background-color: #3F96BE;
+  -webkit-box-shadow: 2px 2px 1px #c3c3c3;
+  box-shadow: 2px 2px 1px #c3c3c3;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.clase3 {
+  background-color: #3E8CC6;
+  -webkit-box-shadow: 2px 2px 1px #c3c3c3;
+  box-shadow: 2px 2px 1px #c3c3c3;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
