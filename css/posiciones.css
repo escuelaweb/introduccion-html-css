@@ -1,0 +1,41 @@
+/* posiciones.css */
+
+.articulo{
+	width           : 200px;
+	height          : 200px;
+	background-color: #6A4F7D;
+	color           : #EFEFEF;
+	margin-bottom   : 20px;
+	border: 6px solid #291548;
+	border-radius: 12px;
+	text-align: center;
+	line-height: 200px;
+	font-size: 90px;
+	
+}
+
+.icono1{
+	font-family: 'whhglyphs';
+}
+
+.icono2{
+	font-family: 'icomoon';
+}
+
+#art2{
+	position: relative;
+	bottom: 100px;
+	left: 50px;
+}
+
+#art3{
+	position: absolute;
+	top: 200px;
+	right: 50%;
+}
+
+#art4{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
