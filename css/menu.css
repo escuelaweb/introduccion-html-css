@@ -6,7 +6,7 @@ body{
 }
 
 .menu ul{
-	height: 48px;
+	height: 46px;
 	background-color: #4870A7;
 	margin: 0;
 	padding: 0;
@@ -18,8 +18,8 @@ body{
 .menu ul li{
 	list-style: none;
 	float: left;
-	border-right: 1px #799AC8 solid;
-	border-left: 1px #2F4666 solid;
+	border-right: 1px #2F4666  solid;
+	border-left: 1px #799AC8 solid;
 	background-color: #4870A7;
 	position: relative;
 }
@@ -34,22 +34,43 @@ body{
 }
 
 .menu ul li a {
-	display: block;
-	padding: 14px 24px;
-	color: #efefef;
-	text-decoration: none;
-	font-family: 'Bubbler One', sans-serif;
+	display           : block;
+	padding           : 14px 24px;
+	color             : #efefef;
+	text-decoration   : none;
+	font-family       : 'Bubbler One', sans-serif;
+	
+	-webkit-transition: all 400ms ease;
+	-moz-transition   : all 400ms ease;
+	-ms-transition    : all 400ms ease;
+	-o-transition     : all 400ms ease;
+	transition        : all 400ms ease;
 }
 
 .menu .submenu{
-	position: absolute;
-	border-radius: 0 0 12px 12px;
-	width: 160px;
-	height: auto;
+	position          : absolute;
+	border-radius     : 0 0 12px 12px;
+	width             : 160px;
+	top               : 46px;
+	
+	visibility        : hidden;
+	opacity           : 0;
+	height            : 0; 
+	
+	/* PARA QUE NO SALGA SI NO CUANDO ESTOY SOBRE el li */
+	
+	-webkit-transition: all 400ms linear;
+	-moz-transition   : all 400ms linear;
+	-ms-transition    : all 400ms linear;
+	-o-transition     : all 400ms linear;
+	transition        : all 400ms linear;
 }
 
 .menu .submenu li{
 	border: none;
+	border-top: 1px #799AC8 solid;
+	border-bottom: 1px #2F4666 solid;
+
 }
 .menu .submenu li:first-child{
 	border-radius: 0;
@@ -60,5 +81,33 @@ body{
 }
 
 .menu .submenu li a{
-	width: 160px;
+	width: 112px;
+}
+
+/* EFECTOS DE ESTADO */
+
+.menu ul li a:hover {
+	background-color: rgba(0, 0, 0, 0.2);
+	color: black;
+
+	/* -webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2); */
+}
+
+
+
+.menu ul li:first-child a{
+	border-radius: 12px 0 0 12px;
+}
+.menu .submenu li:first-child a{
+	border-radius: 0;
+}
+
+.menu li:hover > .submenu{
+	visibility: visible;
+	opacity: 1;
+	height: auto;
 }
