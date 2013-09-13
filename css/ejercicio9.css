@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,100,300);
+
+body {
+	background-color: #ffffff;
+	margin: 0;
+	padding: 0;
+}
+
+section,header,article {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+header {
+	margin-bottom: 30px;
+}
+
+.box {
+	padding-bottom: 30px;
+	-moz-box-shadow: 0px 2px 1px rgba(192, 192, 192, 0.5);
+	-webkit-box-shadow: 0px 2px 1px rgba(192, 192, 192, 0.5);
+	box-shadow: 0px 2px 1px rgba(192, 192, 192, 0.5);
+
+}
+
+.price {
+	float: right;
+}
+
+.pagination {
+	float:right;
+}
+
+.icon{
+	font-family: 'icomoon';
+}
