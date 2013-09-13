@@ -9,6 +9,10 @@ body {
 	padding: 0;
 }
 
+.box i, h3, h4 {
+	margin-left: 5px;
+}
+
 section,header,article {
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -28,6 +32,7 @@ header {
 
 .price {
 	float: right;
+	font-style: italic;
 }
 
 .pagination {
