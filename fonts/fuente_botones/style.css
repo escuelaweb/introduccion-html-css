@@ -1,0 +1,67 @@
+@font-face {
+	font-family: 'whhglyphs';
+	src:url('fonts/whhglyphs.eot');
+	src:url('fonts/whhglyphs.eot?#iefix') format('embedded-opentype'),
+		url('fonts/whhglyphs.woff') format('woff'),
+		url('fonts/whhglyphs.ttf') format('truetype'),
+		url('fonts/whhglyphs.svg#whhglyphs') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'whhglyphs';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+.icon-gameboy, .icon-nintendods, .icon-tictactoe, .icon-stove, .icon-tank, .icon-spaceinvaders, .icon-pokemon, .icon-skull, .icon-cassette {
+	font-family: 'whhglyphs';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-gameboy:before {
+	content: "\71";
+}
+.icon-nintendods:before {
+	content: "\77";
+}
+.icon-tictactoe:before {
+	content: "\65";
+}
+.icon-stove:before {
+	content: "\72";
+}
+.icon-tank:before {
+	content: "\74";
+}
+.icon-spaceinvaders:before {
+	content: "\79";
+}
+.icon-pokemon:before {
+	content: "\75";
+}
+.icon-skull:before {
+	content: "\69";
+}
+.icon-cassette:before {
+	content: "\6f";
+}

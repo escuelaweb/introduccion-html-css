@@ -1,0 +1,95 @@
+	<!-- formulario.html -->
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+
+	<form action="#" class="form-horizontal">
+		<!-- Clase para que el despliegue de etiqueta campo sea uno al 
+		lado del otro -->
+		<div class="control-group">
+			<!-- Cada par etiqueta,label debe estar entro de la clase control-group -->
+			<label class="control-label" for="nombre">Nombre:</label>
+			<!-- La etiqueta es clase control-label
+			y el campo estan encerrado en un elemento de clase controls -->
+			<div class="controls">
+
+				<input type="text" id="nombre" name="nombre">
+			</div>
+		</div>
+
+		<div class="control-group">
+			<label for="edad" class="control-label">Edad</label>
+			<div class="controls">
+				<input type="number" id="edad" name="edad">
+			</div>
+		</div>
+
+		<div class="control-group">
+			<label for="color" class="control-label" > Color</label>
+			<div class="controls">
+				<input type="color" id="color" name="color">
+			</div>
+		</div>
+
+		<div class="control-group">
+			<label for="animales" class="control-label" > Animales</label>
+			<div class="controls">
+				<input type="radio" id="animales" name="animales" value="Gato">
+				Gato
+				<input type="radio" id="animales" name="animales" value="Perro">
+				Perro
+			</div>
+		</div>
+
+		<div class="control-group">
+			<label for="animales1" class="control-label" > Animales</label>
+			<div class="controls">
+				<input type="checkbox" id="animales1" name="animales1" value="Gato">
+				Gato
+				<input type="checkbox" id="animales1" name="animales1" value="Perro">
+				Perro
+				<input type="checkbox" id="animales1" name="animales1" value="Perro">
+				Zamuro
+			</div>
+		</div>
+
+		<div class="control-group">
+			<label for="email" class="control-label">Correo Electronico</label>
+			<div class="controls">
+			<input type="email" id="email" name="email" placeholder="your@email.com" required>
+			</div>
+		</div>
+
+		<div class="control-group">
+			<label for="dia" class="control-label">Dia</label>
+			<div class="controls">
+				<input type="date" id="dia" name="dia">
+			</div>
+		</div>
+
+		<div class="control-group">
+			<label for="direccion" class="control-label">URL</label>
+			<div class="controls">
+				<input type="url" id="direccion" name="direccion" placeholder="Coloca tu URL">
+			</div>
+		</div>
+
+	
+		<div class="control-group">
+			<input type="submit" class="btn" value="enviar">
+			<input type="reset" class="btn" value="reset">
+
+
+
+		</div>
+
+	</form>
+	
+</body>
+</html>

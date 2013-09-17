@@ -1,0 +1,180 @@
+/*animaciones.css*/
+@keyframes "rigoberto" {
+ 25% {
+    top: 25%;
+   	left: 50%;
+ }
+ 50% {
+    top: 15%;
+   	left: 75%;
+ }
+ 65% {
+    top: 25%;
+   	left: 100%;
+ }
+ 85% {
+    top: 25%;
+   	left: 50%;
+ }
+
+}
+
+@-moz-keyframes rigoberto {
+ 25% {
+   top: 25%;
+   left: 50%;
+ }
+ 50% {
+   top: 15%;
+   left: 75%;
+ }
+ 65% {
+   top: 25%;
+   left: 100%;
+ }
+ 85% {
+   top: 25%;
+   left: 50%;
+ }
+
+}
+
+@-webkit-keyframes "rigoberto" {
+ 25% {
+   top: 25%;
+   left: 50%;
+ }
+ 50% {
+   top: 15%;
+   left: 75%;
+ }
+ 65% {
+   top: 25%;
+   left: 100%;
+ }
+ 85% {
+   top: 25%;
+   left: 50%;
+ }
+
+}
+
+@-ms-keyframes "rigoberto" {
+ 25% {
+   top: 25%;
+   left: 50%;
+ }
+ 50% {
+   top: 15%;
+   left: 75%;
+ }
+ 65% {
+   top: 25%;
+   left: 100%;
+ }
+ 85% {
+   top: 25%;
+   left: 50%;
+ }
+
+}
+
+@-o-keyframes "rigoberto" {
+ 25% {
+   top: 25%;
+   left: 50%;
+ }
+ 50% {
+   top: 15%;
+   left: 75%;
+ }
+ 65% {
+   top: 25%;
+   left: 100%;
+ }
+ 85% {
+   top: 25%;
+   left: 50%;
+ }
+
+}
+
+
+
+
+
+@keyframes "voltear" {
+ 0% {
+    background-position: 0 0;
+ }
+ 65% {
+    background-position: -89px 0;
+ }
+
+}
+
+@-moz-keyframes voltear {
+ 0% {
+   background-position: 0 0;
+ }
+ 65% {
+   background-position: -89px 0;
+ }
+
+}
+
+@-webkit-keyframes "voltear" {
+ 0% {
+   background-position: 0 0;
+ }
+ 65% {
+   background-position: -89px 0;
+ }
+
+}
+
+@-ms-keyframes "voltear" {
+ 0% {
+   background-position: 0 0;
+ }
+ 65% {
+   background-position: -89px 0;
+ }
+
+}
+
+@-o-keyframes "voltear" {
+ 0% {
+   background-position: 0 0;
+ }
+ 65% {
+   background-position: -89px 0;
+ }
+
+}
+
+
+#rigoberto {
+	width: 89px;
+	height: 66px;
+	background-image: url(../img/startupsX2.png);
+	background-repeat: no-repeat;
+
+	-webkit-animation: 10s voltear steps(1) infinite;
+	-moz-animation: 10s voltear steps(1) infinite;
+	-ms-animation: 10s voltear steps(1) infinite;
+	-o-animation: 10s voltear steps(1) infinite;
+	animation: 10s voltear steps(1) infinite;
+}
+
+
+#rigo-mov{
+	position: absolute;
+	top: 20%;
+	left: 0;
+	-webkit-animation: 10s rigoberto ease infinite;
+	-moz-animation: 10s rigoberto ease infinite;
+	-ms-animation: 10s rigoberto ease infinite;
+	-o-animation: 10s rigoberto ease infinite;
+	animation: 10s rigoberto ease infinite;
+}
