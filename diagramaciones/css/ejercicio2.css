@@ -1,0 +1,76 @@
+@charset"utf-8";
+
+/* CSS Document */
+ @import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,100,300);
+ body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+section, header, article {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+header {
+    margin-bottom: 60px;
+}
+.btn-warning {
+    padding-bottom: 10px;
+}
+.boton-agregar {
+    float: right;
+    margin-top: -40px;
+}
+h3, h4 {
+    margin-left: 5px;
+}
+
+.price {
+    color: #900;
+}
+.box {
+    -webkit-box-sizing: border-box 1px #c3c3c3 solid;
+    /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box 1px #c3c3c3 solid;
+    /* Firefox, other Gecko */
+    box-sizing: border-box 1px #c3c3c3 solid;
+    /* Opera/IE 8+ */
+}
+.price {
+    float: right;
+    font-style: italic;
+}
+.pagination {
+    float:right;
+}
+.icon {
+    font-family:'icomoon';
+}
+.stars {
+    float: left;
+    margin-top: 35px;
+    color: #f8e605;
+}
+.glyphicon-star {
+    color: #f8e605;
+}
+.glyphicon-shopping-cart {
+    color: #fdfcfc;
+}
+.glyphicon-gift {
+    color: #969292;
+}
+.glyphicon-tag {
+    color: #7699f5;
+}
+.img-thumbnail {
+    margin-top: 4px;
+}
+.glyphicon .glyphicon-tag {
+    color: #0856ea;
+}
