@@ -248,6 +248,7 @@ a:focus {
 }
 
 .img-polaroid {
+  margin-top:4px;
   padding: 4px;
   background-color: #fff;
   border: 1px solid #ccc;

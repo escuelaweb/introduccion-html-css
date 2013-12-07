@@ -1,0 +1,75 @@
+<!-- ejercicio11.html -->
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Plugin JQUERY con Bootstrap</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/plugines.css">
+</head>
+<body>
+
+<div class="container">
+	
+	<!-- <div class="carousel slide" id="carru">
+		<ol class="carousel-indicators">
+			<li data-target="#carru" data-slide-to="0"></li>
+			<li data-target="#carru" data-slide-to="1" class="active"></li>
+			<li data-target="#carru" data-slide-to="2"></li>
+			<li data-slide-to="3" data-target="#carru"></li>
+		</ol>
+
+		<div class="carousel-inner">
+			<div class="item" >
+				<img src="http://lorempixel.com/940/400/cats/1/" alt="">
+			</div>
+			<div class="item active">
+				<img src="http://lorempixel.com/940/400/cats/2/" alt="">
+				<div class="carousel-caption">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, obcaecati, omnis quod facere quaerat dignissimos ex ut veniam deserunt exercitationem repellat molestiae quis culpa cumque assumenda unde veritatis. Alias, consequuntur.</p>
+					<a class="btn btn-warning" href="#">Este es mi enlace</a>
+				</div>
+			</div>
+			<div class="item ">
+				<img src="http://lorempixel.com/940/400/cats/4/" alt="">
+				<div class="carousel-caption">
+				<a class="btn btn-warning" href="#">Este es mi enlace</a>
+				</div>
+			</div>
+			<div class="item ">
+				<img src="http://lorempixel.com/940/400/cats/3/" alt="">
+			</div>
+		</div>
+
+		<a href="#carru" class="carousel-control left" data-slide="prev">
+			&lsaquo;
+		</a>
+
+		<a href="#carru" class="carousel-control right" data-slide="next">
+			&rsaquo;
+		</a>
+
+	</div> -->
+
+	<a id="example" href="#" class="btn btn-large btn-danger" data-toggle="popover" title="" data-content="Aqui va lo que sale en el mensaje" data-original-title="Aqui va el titulo de popover">
+		Click para desplegar popover
+	</a>
+
+</div>
+
+<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script>
+	$('.carousel').carousel({
+	  interval: 5000
+	});
+
+	$('#example').popover({
+		placement: 'bottom',
+		content: 'hola este s mi content',
+		trigger: 'hover'
+	});
+</script>
+</body>
+</html>

@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>ejercicio 9</title>
+    
+    <head>
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100italic,300italic,100' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="fonts/nueva/style.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/ejercicio2.css">
+        <!--[if lt IE 9]>
+            <script src="dist/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+    
+    <body>
+        <div class="container">
+            <header class="row">
+             <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="container">
+                        <div class="navbar-header">
+                            <ul class="nav navbar-nav">
+                                <li class="active">
+                                    <a href="#">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#">Link</a>
+                                </li>
+                                <li class="divider-vertical"></li>
+                                <li>
+                                    <a href="#">Link</a>
+                                </li>
+                                <li class="divider-vertical"></li>
+                                <li>
+                                    <a href="#">Link</a>
+                                </li>
+                                <li class="dropdown">
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown
+                                            <b class="caret"></b>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="#">Action</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Another action</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Something else here</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Separated link</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">One more separated link</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                            </ul>
+                        </div>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <a href="#">Login</a>
+                            </li>
+                            <li>
+                                <a href="#">Sing Up</a>
+                            </li>
+                            <li>
+                                <a href="#">Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+            <section class="row container">
+                <aside class="col-md-4 col-lg-4">
+                    <article>
+                        <img class="img-thumbnail" src="http://placehold.it/400x500">
+                        <!--esto pertenece a la imagen principal -->
+                        <h2>Articulo sorprendente</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, id, expedita, minima quasi iure nobis consequuntur</p>
+                        <div class="stars">
+                            <span class="glyphicon glyphicon-star push-left"></span>
+                            <span class="glyphicon glyphicon-star push-left"></span>
+                            <span class="glyphicon glyphicon-star push-left"></span>
+                            <span class="glyphicon glyphicon-star push-left"></span>
+                        </div>
+                        <h3 class="price">
+                            <span class="glyphicon glyphicon-tag"></span>$11.99</h3>
+                        <!-- clase glyphicon coloca icono de bootstrap-->
+                        <!-- <button type="button" class="btn btn-large btn-block">Gran boton de acción</button>
+				-->
+                    </article>
+                </aside>
+                <article>
+                    <!--imagenes miniatura, la clase thumbnail coloca el marco-->
+                    <div class="col-xs-6 col-sm-3 col-md-3">
+                        <img class="img-thumbnail img-responsive" src="http://placehold.it/64x64">
+                        <img class="img-thumbnail img-responsive" src="http://placehold.it/64x64">
+                        <img class="img-thumbnail img-responsive" src="http://placehold.it/64x64">
+                        <img class="img-thumbnail img-responsive" src="http://placehold.it/64x64">
+                        <img class="img-thumbnail img-responsive" src="http://placehold.it/64x64">
+                        <img class="img-thumbnail img-responsive" src="http://placehold.it/64x64">
+                    </div>
+                    <div class="col-xs-6 col-md-4">
+                        <h3>Titulo de mi articulo</h3>
+                        <hr>
+                        <p>Lorem  dolor ipsum dolor sit amet, consectetur adipisicing elit. Itaque, cupiditate laudantium blanditiis? Magni, itaque aliquid recusandae iusto excepturi velit temporibus dolorum exercitationem praesentium expedita mollitia similique voluptate laboriosam laudantium illo!</p>
+                        <br>
+                        <button class="btn btn-lg btn-warning btn-block" type="warning">
+                            <span class="glyphicon glyphicon-shopping-cart"></span>Agregar al carrito de compras</button>
+                        <button class="btn btn-lg btn-default btn-block" type="default">
+                            <span class="glyphicon glyphicon-gift"></span> Agregar a lista de deseos</button>
+                    </div>
+                </article>
+            </section>
+            <section class="row container">
+                <ol class="breadcrumb">
+                    <!--coloca migas de pan -->
+                    <li>
+                        <a href="#">Home</a>
+                        <span class="divider">/</span>
+                    </li>
+                    <li>
+                        <a href="#">Ropa</a>
+                        <span class="divider">/</span>
+                    </li>
+                    <li class="active">Deportiva</li>
+                    <!--clase active siempre coloca los elementos con estado activo-->
+                </ol>
+            </section>
+            <hr>
+            <section class="row">
+                <article class="col-xs-6 col-sm-4 col-md-3 box">
+                    <img class="img-thumbnail img-responsive" src="http://placehold.it/293x329">
+                    <!--esto pertenece a la imagen -->
+                    <h3>Item Name</h3>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <!--etiqueta "i" coloca iconos de bootsptrap-->
+                    <!--la clase icon-star define el tipo de icono-->
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                    <h4>$000.00</h4>
+                    <div class="boton-agregar">
+                        <button type="button" class="btn btn-warning glyphicon glyphicon-shopping-cart">Agregar</button>
+                    </div>
+                </article>
+                <article class="col-xs-6 col-sm-4 col-md-3 box">
+                    <img class="img-thumbnail img-responsive" src="http://placehold.it/293x329">
+                    <!--esto pertenece a la imagen -->
+                    <h3>Item Name</h3>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                    <h4>$000.00</h4>
+                    <div class="boton-agregar">
+                        <button type="button" class="btn btn-warning glyphicon glyphicon-shopping-cart">Agregar</button>
+                    </div>
+                </article>
+                <article class="col-xs-6 col-sm-4 col-md-3 box">
+                    <img class="img-thumbnail img-responsive" src="http://placehold.it/293x329">
+                    <!--esto pertenece a la imagen -->
+                    <h3>Item Name</h3>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                    <h4>$000.00</h4>
+                    <div class="boton-agregar">
+                        <button type="button" class="btn btn-warning glyphicon glyphicon-shopping-cart">Agregar</button>
+                    </div>
+                </article>
+                <article class="col-xs-6 col-sm-4 col-md-3 box">
+                    <img class="img-thumbnail img-responsive" src="http://placehold.it/293x329">
+                    <!--esto pertenece a la imagen -->
+                    <h3>Item Name</h3>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                    <h4>$000.00</h4>
+                    <div class="boton-agregar">
+                        <button type="button" class="btn btn-warning glyphicon glyphicon-shopping-cart">Agregar</button>
+                    </div>
+                </article>
+            </section>
+            <section class="row">
+                <article class="col-xs-6 col-sm-4 col-md-3 box">
+                    <img class="img-thumbnail img-responsive" src="http://placehold.it/293x329">
+                    <!--esto pertenece a la imagen -->
+                    <h3>Item Name</h3>
+                    <i class="icon-star"></i>
+                    <!--etiqueta "i" coloca iconos de bootsptrap-->
+                    <i class="icon-star"></i>
+                    <!--la clase icon-star define el tipo de icono-->
+                    <i class="icon-star"></i>
+                    <h4>$000.00</h4>
+                    <div class="boton-agregar">
+                        <button type="button" class="btn btn-warning glyphicon glyphicon-shopping-cart">Agregar</button>
+                    </div>
+                </article>
+                <article class="col-xs-6 col-sm-4 col-md-3 box">
+                    <img class="img-thumbnail img-responsive" src="http://placehold.it/293x329">
+                    <!--esto pertenece a la imagen -->
+                    <h3>Item Name</h3>
+                    <i class="icon-star"></i>
+                    <i class="icon-star"></i>
+                    <h4>$000.00</h4>
+                    <div class="boton-agregar">
+                        <button type="button" class="btn btn-warning glyphicon glyphicon-shopping-cart">Agregar</button>
+                    </div>
+                </article>
+                <article class="col-xs-6 col-sm-4 col-md-3 box">
+                    <img class="img-thumbnail img-responsive" src="http://placehold.it/293x329">
+                    <!--esto pertenece a la imagen -->
+                    <h3>Item Name</h3>
+                    <i class="icon-star"></i>
+                    <i class="icon-star"></i>
+                    <i class="icon-star"></i>
+                    <i class="icon-star"></i>
+                    <i class="icon-star"></i>
+                    <h4>$000.00</h4>
+                    <div class="boton-agregar">
+                        <button type="button" class="btn btn-warning glyphicon glyphicon-shopping-cart">Agregar</button>
+                    </div>
+                </article>
+                <article class="col-xs-6 col-sm-4 col-md-3 box">
+                    <img class="img-thumbnail img-responsive" src="http://placehold.it/293x329">
+                    <!--esto pertenece a la imagen -->
+                    <h3>Item Name</h3>
+                    <i class="icon-star"></i>
+                    <i class="icon-star"></i>
+                    <i class="icon-star"></i>
+                    <h4>$000.00</h4>
+                    <div class="boton-agregar">
+                        <button type="button" class="btn btn-warning glyphicon glyphicon-shopping-cart">Agregar</button>
+                    </div>
+                </article>
+            </section>
+            <section class="row container">
+            <ul class="pagination">
+                <li>
+                    <a href="#">&raquo;</a>
+                </li>
+                <li>
+                    <a href="#">1</a>
+                </li>
+                <li>
+                    <a href="#">2</a>
+                </li>
+                <li>
+                    <a href="#">3</a>
+                </li>
+                <li>
+                    <a href="#">4</a>
+                </li>
+                <li>
+                    <a href="#">5</a>
+                </li>
+                <li>
+                    <a href="#">&raquo;</a>
+                </li>
+            </ul>
+            </section>
+            <section class="row">
+                <!--Esto es una cabecera con fila-->
+                <div class="container">
+                    <!--capricho mio-->
+                    <img class="img-responsive" src="http://placehold.it/1140x100">
+                    <!--esto pertenece a la imagen -->
+                </div>
+            </section>
+            <section class="row">
+                <article class="col-md-3">
+                    <img src="http://placehold.it/200x140">
+                </article>
+                <article class="col-md-3">
+                    <h4>Titulo de mi articulo</h4>
+                    <h5>Segundo titulo de mi articulo</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, aspernatur, modi repudiandae iste ipsum.</p>
+                </article>
+                <article class="col-md-3">
+                    <img src="http://placehold.it/200x140">
+                </article>
+                <article class="col-lg-3">
+                    <h4>Titulo de mi articulo</h4>
+                    <h5>Segundo titulo de mi articulo</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, aspernatur, modi repudiandae iste ipsum.</p>
+                </article>
+            </section>
+            <hr>
+            <section class="row">
+                <article class="col-md-5">
+                    <h5>Titulo de mi articulo</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, aspernatur, modi repudiandae iste ipsum.Deserunt, aspernatur, modi repudiandae iste ipsum.</p>
+                </article>
+                <div class="col-xs-3 col-md-2">
+                    <h5>Quick Links</h5>
+                    <p>
+                        <a href="#">Home</a>
+                        <br>
+                        <a href="#">Noticias</a>
+                        <br>
+                        <a href="#">Tienda</a>
+                        <br>
+                        <a href="#">Etc..</a>
+                        <br>
+                        <a href="#">Etc..</a>
+                        <br>
+                    </p>
+                </div>
+                <article class="col-md-5">
+                    <h5>Titulo de mi articulo</h5>
+                    <h4>
+                        <b>Titulo de mi articulo</b>
+                    </h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, aspernatur, modi repudiandae iste ipsumaspernatur, modi repudiandae iste ipsum.</p>
+                </article>
+            </section>
+            <!-- row refiere a las filas , span a las columnas, seccion a las secciones, article a los articulos, aside a los elementos relacionados-->
+        </div>
+        <hr>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="//code.jquery.com/jquery.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+
+</html>

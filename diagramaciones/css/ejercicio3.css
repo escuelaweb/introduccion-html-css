@@ -1,0 +1,49 @@
+@charset"utf-8";
+
+/* CSS Document */
+
+ body {
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 70px;
+    
+}
+
+h1, h2, h3 {
+    color: #5b6064;
+    font-family: 'Roboto'sans-serif;
+    font-weight: 100;
+}
+
+h4, h5, h6, p {
+    font-family: 'Roboto'sans-serif;
+    font-weight: 300;
+}
+
+section, article {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.hello {
+    text-align: center;
+}
+
+.navbar-default {
+    height: 60px;
+    opacity: 0.9;
+}
+
+.navbar-default .navbar-nav>li>a {
+    height: 60px;
+    padding: 20px;
+}
+
+.map {
+    float: right;
+    margin-right: -60px;
+}
+
+.resumen {
+    padding-left: 90px;
+}

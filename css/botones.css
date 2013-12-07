@@ -1,0 +1,127 @@
+/*botones.css*/
+
+body{
+	margin-top: 100px;
+}
+
+.miboton{
+	padding: 10px 16px;
+	border: #3F83C4 solid 1px;
+	background-color: #59A5D8;
+	color: #F1F1F1;
+}
+
+.miboton:hover{
+	color: #F1F1F1;
+	text-decoration: none;
+	background-color: #4D8EB9;
+}
+
+.miboton.vino{
+	background-color: #6A0909;
+	border-color: #421010;
+}
+
+.miboton.vino:hover{
+	background-color: #3F0000;
+}
+
+.sprite{
+	width:20px;
+	height: 25px;
+	background-image: url(../img/sprite_google.png);
+	background-position: 0 -80px;
+	text-indent: -9000px; 	
+}
+
+.sprite:hover{
+	background-position: -20px -80px;
+}
+
+.sprite.azul{
+	height: 20px;
+	background-position: 0 -105px;
+}
+
+.sprite.azul:hover{
+	background-position: -20px -105px;
+}
+
+.boton{
+	padding: 10px 16px;
+	border: #74B34E solid 1px;
+	background-color: #90CE44;
+	color: #F1F1F1;
+	border-radius: 10px;
+}
+
+.boton:hover{
+	color: #f1f1f1;
+	text-decoration: none;
+	background-color: #64AD3E;
+}
+
+.boton.gradiente{
+	border-color: #FF68B6;
+	background: #ff68b6;
+	background: -moz-linear-gradient(top,  #ff68b6 0%, #ff0084 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff68b6), color-stop(100%,#ff0084));
+	background: -webkit-linear-gradient(top,  #ff68b6 0%,#ff0084 100%);
+	background: -o-linear-gradient(top,  #ff68b6 0%,#ff0084 100%);
+	background: -ms-linear-gradient(top,  #ff68b6 0%,#ff0084 100%);
+	background: linear-gradient(to bottom,  #ff68b6 0%,#ff0084 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff68b6', endColorstr='#ff0084',GradientType=0 );
+
+	text-shadow: 1px 1px 1px #1f021f;
+  filter: dropshadow(color=#1f021f, offx=1, offy=1);
+
+  font-family: 'Kavoon', cursive;
+
+  -webkit-box-shadow:  1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow:  1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.boton.gradiente:hover{
+	background: #ff0084;
+	background: -moz-linear-gradient(top,  #ff0084 0%, #ff68b6 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff0084), color-stop(100%,#ff68b6));
+	background: -webkit-linear-gradient(top,  #ff0084 0%,#ff68b6 100%);
+	background: -o-linear-gradient(top,  #ff0084 0%,#ff68b6 100%);
+	background: -ms-linear-gradient(top,  #ff0084 0%,#ff68b6 100%);
+	background: linear-gradient(to bottom,  #ff0084 0%,#ff68b6 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0084', endColorstr='#ff68b6',GradientType=0 );
+}
+
+.mt50{
+	margin-top: 50px;
+}
+
+.circular{
+	background-color: #795198;
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	background-image: none;
+	text-align: center;
+	line-height: 100px;
+	font-size: 48px;
+	color: #F5F5F5;
+	border: #3C2851 5px solid;
+
+	-webkit-transition: all 400ms ease;
+	-moz-transition: all 400ms ease;
+	-ms-transition: all 400ms ease;
+	-o-transition: all 400ms ease;
+	transition: all 400ms ease;
+
+}
+
+.circular:hover{
+	color: #F5F5F5;
+	text-decoration: none;
+	border: dashed;
+	background-color: #3C2851;
+}
+.icon-gameboy{
+	line-height: 100px;
+}
